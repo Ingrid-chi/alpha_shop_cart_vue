@@ -1,0 +1,66 @@
+@import "./variables";
+
+// form
+%form-title-h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: $main-black;
+  padding-bottom: 24px;
+}
+
+%input-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: $form-title;
+  padding-bottom: 6px;
+}
+
+%input-border {
+  width: 100%;
+  border: 1px solid $form-input;
+  border-radius: 4px;
+  padding: 12px 18px;
+}
+
+%select-border {
+  width: 100%;
+  border: 1px solid $form-input;
+  border-radius: 4px;
+  padding: 12px 18px;
+
+  appearance: none;
+}
+
+%select-icon {
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid $main-black;
+}
+
+// radio-btn
+%radio-btn {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid $radio-btn-default;
+}
+
+// btn-counts
+%btn-counts {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: $light-gray-border;
+  color: $black;
+}
